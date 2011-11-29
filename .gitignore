@@ -1,0 +1,16 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+*.off
+*.old
+.DS_Store
+spy.log
+*.log
+
+WebRoot/WEB-INF/classes
+WebRoot/dojo
+WebRoot/dojox
+WebRoot/ext
