@@ -9,6 +9,7 @@ syntax: glob
 .DS_Store
 spy.log
 *.log
+work
 
 WebRoot/WEB-INF/classes
 WebRoot/dojo
