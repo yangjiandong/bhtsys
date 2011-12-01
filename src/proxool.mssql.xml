@@ -4,11 +4,11 @@ Anything outside the "proxool" tag is ignored. -->
 <something-else-entirely>
   <proxool>
     <alias>proxooldatascr</alias>
-    <driver-url>jdbc:mysql://localhost:3306/public</driver-url>
-    <driver-class>com.mysql.jdbc.Driver</driver-class>
+    <driver-url>jdbc:jtds:sqlserver://localhost:1433/bhtec</driver-url>
+    <driver-class>net.sourceforge.jtds.jdbc.Driver</driver-class>
     <driver-properties>
-      <property name="user" value="root"/>
-      <property name="password" value=""/>
+      <property name="user" value="sa"/>
+      <property name="password" value="123"/>
     </driver-properties>
     <maximum-connection-count>100</maximum-connection-count>
     <minimum-connection-count>10</minimum-connection-count>

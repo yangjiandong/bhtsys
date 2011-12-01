@@ -37,7 +37,10 @@
 			    <prop key="hibernate.connection.provider_class">
 			    	org.hibernate.connection.ProxoolConnectionProvider
 			    </prop>
+          <!--
 				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+        -->
+        <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
 				<prop key="hibernate.show_sql">true</prop>
 				<prop key="hibernate.generate_statistics">true</prop>
         <prop key="hibernate.hbm2ddl.auto">update</prop>

@@ -11,5 +11,12 @@ ssh+extjs
 
    2. http://code.google.com/p/jacob-liang-platform-uus/
 
-
+   3. mysql
+   
+   http://localhost:8080
+   admin,123456
+   
+   http://localhost:8080/admin
+   
+   
    --END
