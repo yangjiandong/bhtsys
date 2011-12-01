@@ -15,3 +15,5 @@ WebRoot/WEB-INF/classes
 WebRoot/dojo
 WebRoot/dojox
 WebRoot/ext
+
+WebRoot/WEB-INF/logs
